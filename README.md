@@ -10,6 +10,7 @@ This project aims to predict diabetes outcomes using a **RandomForestClassifier*
 - [Setup Instructions](#setup-instructions)
 - [Results](#results)
 - [Conclusion](#conclusion)
+- [Dataset](#dataset)
 
 ## Introduction
 Diabetes is a chronic condition that affects millions of people worldwide. Early prediction of diabetes can help in better management and care for individuals at risk. This project builds a machine learning model to predict whether a person is likely to develop diabetes based on their medical history and biometric data.
@@ -51,3 +52,7 @@ The accuracy score using RandomForestClassifier model was **78%** and **77%** us
 
 ## Conclusion
 The model performs reasonably well for predicting diabetes outcomes but could be further improved by experimenting with other algorithms or tuning hyperparameters. Additional steps could involve using more features, handling imbalanced data, or exploring deep learning models.
+
+## Dataset
+The dataset used in this project can be downloaded from [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database).
+After downloading, place the `diabetes.csv` file in the `data/` folder.
