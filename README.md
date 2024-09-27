@@ -45,3 +45,9 @@ We used a **RandomForestClassifier**, a robust machine learning algorithm known 
    ```bash
    git clone https://github.com/sumanth-poojary/diabetes-prediction-project.git
    cd diabetes-prediction-project
+
+## Result 
+The accuracy score using RandomForestClassifier model was **78%** and **77%** using RandomSearchCV
+
+## Conclusion
+The model performs reasonably well for predicting diabetes outcomes but could be further improved by experimenting with other algorithms or tuning hyperparameters. Additional steps could involve using more features, handling imbalanced data, or exploring deep learning models.
